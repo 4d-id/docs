@@ -1,0 +1,26 @@
+site_name: 4D-ID
+site_description: One persistent name for everything real. An open standard for spatial identity.
+site_url: https://4d-id.org
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: teal
+  features: [navigation.sections, navigation.top, content.code.copy]
+nav:
+  - Home: index.md
+  - Learn:
+      - What 4D-ID is: learn/what.md
+      - The two planes: learn/two-planes.md
+      - How systems converge: learn/convergence.md
+  - Manual:
+      - Quickstart: manual/quickstart.md
+      - Run the resolver: manual/resolver.md
+      - Use the JS SDK: manual/js-sdk.md
+      - Open vs hosted: manual/hosted.md
+  - Reference:
+      - The specification: api/spec.md
+      - Access API: api/access.md
+      - Conformance: api/conformance.md
+markdown_extensions: [admonition, pymdownx.superfences, tables, attr_list]
