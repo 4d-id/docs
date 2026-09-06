@@ -1,3 +1,5 @@
 # Run the resolver
 
+The reference resolver stores, serves, and reconciles identity records from supplied observations, external identifiers, and metadata. It is not a detector, segmenter, SLAM/VPS system, localizer, geometric-registration engine, renderer, navigator, or grasp planner.
+
 See the [reference-resolver README](https://github.com/4d-id/reference-resolver). The default deploy needs no native build; `docker compose up -d --build` also works. Configuration: `PORT`, `STORE` (`memory` or `sqlite`), `DB_PATH`, `SEED`.

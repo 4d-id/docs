@@ -1,9 +1,11 @@
 # The two planes
 
-**Identities are shared and global, but what you can see and say about them is yours.**
+**Identity is shared; records and representations remain contextual.**
 
-The **identity plane** is global and sparse: one name per thing, discovered through resolution, through the identifiers the world already assigns, and through re-identification.
+The **identity plane** is shared and durable: persistent IDs, aliases, relationships, resolution, and lifecycle events such as merge, split, and reconciliation.
 
-The **view plane** is private and rich: your layers, your disclosed precision, your attached content, all keyed to the shared names so your view stays consistent with everyone else about where things are, while differing on what you have added.
+The **data plane** is contextual: supplied state and time, provenance, coordinate/frame references, and representations selected for a purpose. Systems can disclose, cache, or serve different data while still referring to the same identity.
 
-This is the same separation that made the web work. Everyone resolves the same domain to the same server; what each person then sees, caches, and presents is their own.
+Both planes begin with observations or records supplied by upstream systems. 4D-ID does not detect or segment entities, localize them, perform SLAM/VPS or geometric registration, render content, navigate, or plan grasps.
+
+This is the same separation that made the web work: everyone can resolve the same name, while each system controls the records and representations it stores, serves, or presents.

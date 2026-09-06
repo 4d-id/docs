@@ -1,7 +1,9 @@
-# How systems converge on one name
+# How systems converge on one identity
 
-Because anyone can mint a name without permission, two systems can independently name the same thing. A shared world works only if they converge. Three mechanisms, in order of how much weight they carry:
+4D-ID consumes observations and records produced elsewhere; it does not detect, segment, localize, or geometrically register the world. Convergence is about identity claims and their evidence:
 
-1. **Rendezvous** through the identifiers the world already assigns (a parcel number, an asset tag, an IFC id, a place id), via the `identified_as` relation.
-2. **Spatial dedupe** within a DGGS zone.
-3. **Re-identification and merge**, under which independently minted names for one thing collapse to a single name.
+1. **Alias rendezvous** through identifiers the world already assigns (a parcel number, asset tag, IFC ID, place ID, or registry key), via `identified_as` and related aliases.
+2. **Resolution** across registries using supplied identifiers, relationships, and provenance. Spatial metadata may be evidence, but the resolver is not a perception or registration engine.
+3. **Reconciliation** when independent identities refer to one entity: authorized merge preserves history, and split preserves derivation and provenance when one identity must become several.
+
+The result is a persistent identity with an auditable history, not a claim that 4D-ID performed observation or localization. SEGS is adjacent, not core.

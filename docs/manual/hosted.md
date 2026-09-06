@@ -1,7 +1,7 @@
 # Open vs hosted
 
-**Run it yourself, for free.** The specification, the reference resolver, the SDKs, and the conformance suite are open and Apache-2.0. You can mint, resolve, and run a resolver with no account and no fee. This path is complete.
+**Run it yourself.** The candidate specification is published for open review; the reference resolver, SDKs, schemas, and conformance tooling are Apache-2.0. You can ingest or register existing observations/records, resolve identities, and serve their state, relationships, representations, provenance, and lifecycle data with no hosting account or fee.
 
-**Or use a hosted resolver.** Running a resolver that stays current across many parties, converges identities across vendors, and serves enrichment is a service. Quantum Studio offers a hosted resolver and registry for teams that would rather not operate their own. A self-serve staging tier lets you try it; production is a conversation.
+**Or use a hosted resolver.** Operating a resolver and registry across parties is a hosting and operations service. A hosted deployment can provide persistence, availability, access control, and optional enrichment; it does not replace perception, detection, localization, geometric registration, rendering, navigation, or grasp planning.
 
-The standard is free. The hosting and the intelligence on top are the product. The line between them is deliberate and the free path is genuinely complete.
+4D-ID is a candidate standard until adopted. Current conformance is limited to 15 schema-level checks passing; functional work continues. Hosting and operational services are separate from the open implementation tools.
