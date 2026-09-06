@@ -10,4 +10,4 @@ The web gave every document a name that worked across every browser and server. 
 - :material-file-document: **[Reference](api/spec.md)** — the specification and the API.
 </div>
 
-▶ **[Try it live](https://x4d-id.exe.xyz/)** before you read a line.
+▶ **[Try it live](https://4d-id.org/)** before you read a line.
